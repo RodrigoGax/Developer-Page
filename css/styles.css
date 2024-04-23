@@ -68,4 +68,30 @@ body {
 }
 
 
+/* 
+Tamaños recomendados para media query
+480px para móviles
+768px para tablets
+1140px para laptops
+1400px para dispositivos más grandes como monitores o TVs
+*/
+body{
+    background-color: beige;
+}
+@media (min-width: 480px) {
+    body{
+        background-color: blue;
+    }
+}
+
+@media (min-width: 768px) {
+    body{
+        background-color: cornflowerblue;
+    }
+}
+
+@media (min-width: px) {
+ 
+ }
+
 
