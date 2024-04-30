@@ -20,6 +20,8 @@ html {
 
 body {
     font-size: 16px;
+    font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top, var(--gris) 0%, var(--blanco) 100%);
 }
 
 /*Tipografía*/
@@ -111,6 +113,7 @@ background-size: cover; /* Sirve para cubrir la imagen con todo el tamaño*/
 height: 450px; /* Alto del elemento hero*/
 position: relative; /* Para manipular la posición, el padre siempre debe ser 
 relative*/
+
 }
 
 .contenedor-hero {
@@ -148,6 +151,25 @@ relative*/
     border-radius: .5rem; /* Esquinas redondeadas*/
     width: 90%; /* Ancho del botón */
     text-align: center; /* Centrar el texto del botón*/
+}
+
+@media (min-width: 768px) {
+    .boton {
+        width: auto;
+    } 
+ }
+
+
+.sombra {
+    margin-top: 2rem;
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+    /* Motor para google chrome*/
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+    /* Motor para mozilla firefox*/
+    -moz-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
 }
 
 
